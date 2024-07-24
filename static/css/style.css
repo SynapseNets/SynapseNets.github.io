@@ -45,14 +45,14 @@ canvas{
   vertical-align:bottom;
 }
 
-.contentText{
-  margin-top: 55%;
-  color: white;
-}
-
 .element{
   font-family:'Montserrat-Alt1', sans-serif;
   font-size: 500%;
+}
+
+.subelement{
+  font-family:'Montserrat-Alt1', sans-serif;
+  font-size: 250%;
 }
 
 /* ---- sidebar nav css ---- */
