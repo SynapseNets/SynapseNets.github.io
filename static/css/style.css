@@ -50,6 +50,10 @@ canvas{
   font-size: 500%;
 }
 
+.navbar-text{
+  font-family:'Montserrat-Alt1', sans-serif;
+}
+
 .subelement{
   font-family:'Montserrat-Alt1', sans-serif;
   font-size: 250%;
