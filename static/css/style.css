@@ -25,7 +25,6 @@ li{list-style:none}
    ========================================================================== */
 
 /* ---- base ---- */
-
 html,body{ 
 	width:100%;
 	height:100%;
@@ -49,29 +48,33 @@ canvas{
   font-family:'Montserrat-Alt1', sans-serif;
   font-size: 500%;
 }
+/* ---- navbar css ---- */
+.nav-active{
+  text-decoration: underline;
+}
+
+.navbar-title{
+  font-size: 4vw; 
+}
+
+@media screen and (min-width: 1400px) {
+  .navbar-title {
+     font-size: 54px;
+  }
+}
+
+.navbar-content{
+  font-size: 1.75vw;
+}
+
+@media screen and (min-width: 1400px) {
+  .navbar-content {
+     font-size: 24.5px;
+  }
+}
 
 .navbar-text{
   font-family:'Montserrat-Alt1', sans-serif;
-}
-
-.subelement{
-  font-family:'Montserrat-Alt1', sans-serif;
-  font-size: 250%;
-}
-
-/* ---- sidebar nav css ---- */
-.nav-content{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-}
-
-.nav-div{
-  margin-left: 88%;
-  padding-right: 4%;
-}
-
-.nav-active{
-  text-decoration: underline;
 }
 
 /* ---- stats.js ---- */
