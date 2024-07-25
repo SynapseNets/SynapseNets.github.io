@@ -102,3 +102,8 @@ canvas{
   background-position: 100% 100%;
   background-repeat: no-repeat;
 }
+
+/* Image fills card width */
+.card img {
+  width: 100%;
+}
